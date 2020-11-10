@@ -12,6 +12,7 @@ public class SSList04<Stuff> {
 
     /* Constructor */
     public SSList04(Stuff x) {
+        // StuffNode have a public Stuff item and a public StuffNode next
         first = new StuffNode(x, null);
         size = 1;
     }
@@ -49,6 +50,7 @@ public class SSList04<Stuff> {
         size += 1;
     }
 
+    // getFirst() will return a Stuff
     public Stuff getFirst() {
         return first.item;
     }

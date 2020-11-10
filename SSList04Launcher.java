@@ -1,5 +1,6 @@
 public class SSList04Launcher {
     public static void main(String[] args) {
+        // SSLIST<specify the type of the instance> name = new SSList<>()
         SSList04<String> list = new SSList04<String>("bone");
         list.addLast("thugs");
         list.addFirst("head");

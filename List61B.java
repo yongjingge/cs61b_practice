@@ -20,4 +20,11 @@ public interface List61B<Item> {
 
 	public Item getFirst();
 
+	default public void print() {
+		for (int i = 0; i < size(); i++) {
+			System.out.print(get(i) + " ");
+		}
+		System.out.println();
+	}
+
 }
