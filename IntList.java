@@ -1,4 +1,4 @@
-/* Lecture 2 IntList */
+/* Lecture 3 IntList */
 
 public class IntList {
 	public int first;
